@@ -1,0 +1,19 @@
+# Python environments
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Windows OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Virtual environments (if any)
+venv/
+env/
+.env
+
+# ComfyUI output/workflow files (to prevent accidental commit of large or private images)
+*.png
+*.jpg
+*.json
