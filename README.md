@@ -73,12 +73,17 @@
 💡 **【便利ポイント】**  
 現在の行番号や内容がハッキリと分かるため、「何行目から何行目だけを重点的に繰り返したい」「狙ったキャラを出すためにこの行に固定しよう」といった用途において、非常に直感的で調整しやすくなります！
 
+🔗 **【接続方法】**  
+`TysiguReadLines` ノードから出力される **`display_info`** ピンのケーブルを引っ張り、このディスプレイノードに入力（接続）することで機能します。
+
 > **[EN]** A visually-focused display node that prevents your progress from becoming a black box. The following information is beautifully listed directly on the node UI:
 > *   📊 **Total number of lines**
 > *   🚨 **Which line is currently being processed**
 > *   📝 **What exact text (prompt) is currently being sent**
 > 
 > 💡 **[Pro Tip]** By clearly seeing the current line number and content, it becomes highly intuitive to make adjustments like "I want to focus on repeating lines X to Y" or "Let's lock onto this line to nail this specific character!".
+> 
+> 🔗 **[How to connect]** Simply connect the **`display_info`** output pin from the `TysiguReadLines` node into the input of this display node, and it will start visualizing everything.
 
 ---
 
