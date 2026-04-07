@@ -47,11 +47,13 @@
 *   🎯 **行の固定（ガチャ用）**: 特定の行（キャラや構図）に固定して生成結果を厳選（ガチャ）するのに最適です。
 *   ⚙️ **柔軟な自動進行**: はじめの行を指定すれば、あとは自動で順番に次の行へと進んでくれます。
 *   🔁 **自動ループ**: 最後の行まで到達したら、エラーで止まることなく自動で最初の行へ戻ってループします。
+*   🔄 **ワンクリック・リセット**: ノード上の専用ボタン（`Reset line to 1`）を押すだけで、いつでも瞬時に「1行目」から処理をリスタートできます！
 
 > **[EN]** Reads a multi-line prompt list sequentially or holds on a fixed line. Solves the inconvenience of existing reader nodes.
 > *   🎯 **Fixed Line for 'Gacha'**: Perfect for locking onto a specific line (character/composition) and rerolling generations.
 > *   ⚙️ **Flexible Progressive Batch**: Set a starting line and let it automatically proceed sequentially through the queue.
 > *   🔁 **Auto-Loop**: Automatically returns to the first line upon reaching the end of the list without triggering errors.
+> *   🔄 **One-Click Reset**: Features a dedicated `Reset line to 1` button on the node, allowing you to instantly restart your process from the very first line at any time!
 
 ---
 
